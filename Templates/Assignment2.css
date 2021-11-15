@@ -45,8 +45,9 @@
     margin-bottom: 30px;
     margin-left: 600px;
     margin-top: 30px;
-    height: 60px;
+    height: 70px;
     width:300px;
+    
 }
 
 .item7{
@@ -71,4 +72,9 @@ img {
       width: 200px;
       margin: 5px;
       background-color: rgb(238, 226, 202);
+  }
+  div.stars{
+      padding-top: 10px;
+      margin-left: 70px;
+
   }
