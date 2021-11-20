@@ -42,10 +42,10 @@ input.larger {
     width: 20px;
     height: 20px;
   }
-  .cart{
-    width: 60%;
+  .ca{
+    width: 50%;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: flex-start;
     align-self: left;
     margin: 0 auto;
@@ -53,6 +53,6 @@ input.larger {
     background-color: rgb(243, 232, 232);
     height: 300px;
     position: relative;
-    line-height: 20px;
+    line-height: 40px;
     font-size: 30px;
   }
