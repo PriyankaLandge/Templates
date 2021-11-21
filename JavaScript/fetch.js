@@ -1,3 +1,4 @@
+const array =[];
 fetch('https://fakestoreapi.com/products').then((data)=>{
     // console.log(data);
     return data.json();
@@ -7,7 +8,7 @@ fetch('https://fakestoreapi.com/products').then((data)=>{
       completedata.map((values)=>{
       data1+=`<div class="card">
     
-       <input type="checkbox" class="larger" >
+        <input type="checkbox" value="${values.title}" id="${values.id}" onclick="addToCart(value,id)">
        <h1 class="title">${values.title}</h1>
        <img src="${values.image}" alt="img" class="images">
        
